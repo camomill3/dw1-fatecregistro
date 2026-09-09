@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários no HTML5</h1>
+
+    <form method="POST">
+
+        <label for="nome">Nome:</label>
+        <!-- input text -->
+        <input name="nome" type="text" id="nome" placeholder="Insira o seu nome completo..."><br>
+
+        <label for="email">E-mail</label>
+        <!-- Input email // valida se possui email valido-->
+        <input name ="email" type="email" id="email" placeholder="Insira o seu e-mail..."> <br>
+
+        <!-- Input senha -->
+        <label for="senha">Senha</label>
+        <input name="password" type="password" id="senha" placeholder="Insira sua senha..."> 
+        <br><br>
+
+        <!-- BOTÃO DE SUBMETER O FORMULÁRIO -->
+        <input type="submit" value="casdastrar">
+        <!-- BOTÃO DE LIMPAR O FORMULÁRIO -->
+        <input type="reset" name="Limpar" id="">
+    </form>
+         
+         <br><br>
+         <hr>
+         <h4>Outros inputs</h4>
+    <form action=""></form>
+
+        <label for="Quantidade">Quantidade</label>
+        <!-- Input de Numeros -->
+        <input type="number" min="0" max="10"><br>
+
+        <label for="Data">Data: </label>
+        <!-- Input de Numeros -->
+        <input type= "date"><br>
+
+        <label for="arquivo">Anexar Arquivo</label> <br><br>
+        <!-- Input de Arquivos -->
+        <input type= "file">
+
+        <!-- Campo de texto longo (textarea) -->
+        <label>Comentários:</label>
+        <textarea raws="4" cols="40"></textarea> <br><br>
+
+        <!-- Campo Invisivel -->
+        <input type="hidden" name="idProduto" value="9" />
+
+        <!-- Caixa de seleção -->
+        <select name="cursos">
+            <option value="1">Programção</option>
+            <option value="1">Design Gráfico</option>
+            <option value="1">Música</option>
+            <option value="1">Enfermagem</option>
+        </select>
+    </form>
+    <br><br>
+    <hr>
+
+    <h2>Exemplo de formulário completo</h2>
+    <!-- FORMULÁRIO COMPLETO -->
+
+    <h4>Cadastro do usuário</h4>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+
+            <label for="name">Nome:</label>
+            <input type="text" placeholder="Insira seu nome"><br>
+
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date"><br>
+
+            <label for="sexo">Sexo</label>
+            <!-- Radio Buttons -->
+            <input type="radio" name="sexo">Masculino
+            <input type="radio" name="sexo">Feminino
+            <input type="radio" name="sexo">Prefiro não informar
+        </fieldset>
+        
+        <br><br>
+
+        <fieldset>
+            <legend>Dados de Endereço:</legend>
+        <label for="rua">Rua</label>
+        <input type="text">
+        <label for="numero">Numero</label>
+        <input type="number">
+        </fieldset>
+
+        <br><br>
+        <fieldset> Dados do Produto
+            <label>Cor do Produto</label>
+            <input type="color"><br><br>
+            <!-- Checkbox -->
+            <input type="checkbox" required>Li e aceito os termos de usuário
+            <br><br>
+
+            <input type="submit" value="casdastrar">
+            <input type="reset" value="Limpar">
+            </fieldset>
+    </form>
+
+</body>
+</html>

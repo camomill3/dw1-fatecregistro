@@ -1,0 +1,88 @@
+/* CSS */
+
+.container{
+    display: flex;
+    height: 250px;
+    padding: 20px;
+    background-color: #30302e;
+    margin: 10px;
+}
+
+.card{
+    background-color: #8cc9e4;  
+    padding: 20px;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    color: #30302e
+}
+
+.row-center{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-left{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.row-space-between{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-space-around{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-wrap{
+    flex-direction: row;
+    /* ATIVA QUEBRA DE LINHA NO FLEXBOX */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+}
+
+.cardMaior{
+    width: 100px;
+}
+
+.row-left{
+flex-direction: row;
+justify-content: left;
+align-items: top;
+background-color: blue;
+}
+
+.row-left-end{
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-end;
+background-color: rgb(188, 211, 61);
+}
+
+.column-space-between{
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(168, 57, 103);
+height: 600px;
+}
+
+.column-space-around{
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+background-color: rgba(61, 7, 105, 0.37);
+height: 800px;
+}
+
+
+
+

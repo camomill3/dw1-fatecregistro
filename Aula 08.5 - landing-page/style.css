@@ -251,6 +251,6 @@ color: #d4a574;
 }
 
 /* TABLET (largura de 769px até 1024px) */
-@media (min-width: 769px) and (max-width:: 1024px){
+@media (min-width: 769px) and (max-width: 1024px){
     /* Aqui irá os estilos para tablet */
 }

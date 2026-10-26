@@ -220,3 +220,37 @@ color: #d4a574;
     text-decoration: none;
     color: white;
 }
+
+
+/* RESPONSIVIDADE */
+/* Mobile (largura de até 768px) */
+
+@media (max-width: 768px){
+    .logo{
+        font-size: 1rem;
+    }
+    .menu{
+        gap: 0.75rem;
+    }
+    .hero-content h1{
+        font-size: 2rem;
+    }
+    .hero-content p{
+        font-size: 1rem;
+    }
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobre-flex {
+        flex-direction: column;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+}
+
+/* TABLET (largura de 769px até 1024px) */
+@media (min-width: 769px) and (max-width:: 1024px){
+    /* Aqui irá os estilos para tablet */
+}
